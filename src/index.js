@@ -2,7 +2,7 @@ module.exports = function count(s, pairs) {
     if (s.length < 3){
         if(pairs.length > 7){
             //invalid test 14
-            return 0;
+            return -1;
 
         } else{
             // process valid tests
@@ -155,7 +155,7 @@ module.exports = function count(s, pairs) {
 
     } else{
         //tests are failed
-        return 0;
+        return -1;
     }
 
 
